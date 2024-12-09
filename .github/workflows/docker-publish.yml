@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: pull target
-        run: git clone --depth 1 --branch v1.7.0 https://github.com/Lichtblick-Suite/lichtblick.git && cd lichtblick && git lfs pull
+        run: git clone --depth 1 --branch v1.8.0 https://github.com/Lichtblick-Suite/lichtblick.git && cd lichtblick && git lfs pull
 
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
